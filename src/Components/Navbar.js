@@ -6,7 +6,8 @@ export default function Navbar(props){
 
     return (
 
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-info">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+            <h1>hello</h1>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="">FreshNews</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
